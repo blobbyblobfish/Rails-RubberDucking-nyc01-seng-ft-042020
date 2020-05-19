@@ -1,0 +1,7 @@
+<h1> Edit Student </h1>
+
+<% if flash[:my_errors] %>
+    <div> Errors: <%= flash[:my_errors] %> </div>
+<% end %>
+
+<%= render 'form' %>
